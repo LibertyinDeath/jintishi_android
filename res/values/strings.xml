@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">近体诗</string>
+	<string name="backgroundtitle">近体诗 </string>
+	<string name="create">创&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;作</string>
+	<string name="rule">规则</string>
+	<string name="jintishirule">近体诗规则</string>
+	<string name="returnmain">返回主界面</string>
+	<string name="jintishi_info">近体诗又称今体诗或格律诗，是唐以后成型的汉族诗歌体裁，主要分为绝句和律诗。按照每句的字数，可分为五言和七言。篇式、句式有一定规格，音韵有一定规律，变化使用也要求遵守一定的规则。</string>
+	<string name="button_wuyanjueju">五言绝句创作</string>
+	<string name="button_qiyanjueju">七言绝句创作</string>
+	<string name="button_wuyanlvshi">五言律诗创作</string>
+	<string name="button_qiyanlvshi">七言律诗创作</string>
+	
+	<string name="judge_jj">————判断并保存————</string>
+	<string name="jueju_title">该行输入五绝标题</string>
+	<string name="jueju_info1">输入（五绝）第一句</string>
+	<string name="jueju_info2">输入（五绝）第二句</string>
+	<string name="jueju_info3">输入（五绝）第三句</string>
+	<string name="jueju_info4">输入（五绝）第四句</string>
+	
+	<string name="judge_wyls">——————判断——————</string>
+	<string name="wyls_title">该行输入五律标题</string>
+	<string name="wyls_info1">输入（五律）首联</string>
+	<string name="wyls_info2">输入（五律）颔联</string>
+	<string name="wyls_info3">输入（五律）颈联</string>
+	<string name="wyls_info4">输入（五律）尾联</string>
+	<string name="judge_qyls">——————判断——————</string>
+	<string name="qyls_title">该行输入七律标题</string>
+	<string name="qyls_info1">输入（七律）首联</string>
+	<string name="qyls_info2">输入（七律）颔联</string>
+	<string name="qyls_info3">输入（七律）颈联</string>
+	<string name="qyls_info4">输入（七律）尾联</string>
+	
+	<string name="qiyanjueju_title">该行输入七绝标题</string>
+	<string name="qiyanjueju_info1">输入（七绝）第一句</string>
+	<string name="qiyanjueju_info2">输入（七绝）第二句</string>
+	<string name="qiyanjueju_info3">输入（七绝）第三句</string>
+	<string name="qiyanjueju_info4">输入（七绝）第四句</string>
+	<string name="qiyanjudge_jj">——————判断——————</string>
+	<string name="wyls_warninfo">注：律诗正文中只能输入中文，省略标点。不符合规则的诗句请您手动保存。</string>
+	<string name="qyls_warninfo">注：律诗正文中只能输入中文，省略标点。不符合规则的诗句请您手动保存。</string>
+	<string name="jueju_warninfo">注：绝句正文中只能输入中文，省略标点。不符合规则的诗句请您手动保存。</string>
+	<string name="qiyanjueju_warninfo">注：绝句正文中只能输入中文，省略标点。不符合规则的诗句请您手动保存。</string>
+	
+	<string name="ruleinfo_wuyanjueju">五绝规则</string>
+	<string name="ruleinfo_qiyanjueju">七绝规则</string>
+	<string name="ruleinfo_wuyanlvshi">五律规则</string>
+	<string name="ruleinfo_qiyanlvshi">七律规则</string>
+	<string name="wuyanruleinfo">五绝规则1:x仄平平仄，平平x仄平。x平平仄仄，x仄仄平平。二四句末尾押韵\n\n五绝规则2：x仄仄平平，平平x仄平。x平平仄仄，x仄仄平平。一二四句末尾押韵\n\n五绝规则3：x平平仄仄，x仄仄平平。x仄平平仄，平平x仄平。二四句末尾押韵\n\n五绝规则4：平平x仄平，x仄仄平平。x仄平平仄，平平x仄平。一二四句末尾押韵</string>
+	<string name="qiyanjuejuinfo">七绝规则1:x仄平平x仄平，x平x仄仄平平。x平x仄平平仄，x仄平平x仄平。第二四句末尾押韵\n\n七绝规则2:x仄平平x仄平，x平x仄仄平平。x平x仄平平仄，x仄平平x仄平。第一二四句末尾押韵\n\n七绝规则3:x平x仄平平仄，x仄平平x仄平。x仄x平平仄仄，x平x仄仄平平。第二四局末尾押韵\n\n七绝规则4:x平x仄仄平平，x仄平平x仄平。x仄x平平仄仄，x平x仄仄平平。第一二四句末尾押韵</string>
+	<string name="wuyanlvshiinfo">五律规则1：x仄平平仄，平平仄仄平。x平平仄仄，x仄仄平平。x仄平平仄，平平仄仄平。x平平仄仄，x仄仄平平。偶数句末尾入韵\n\n五律规则2：x平仄仄平，x仄仄平平。x仄平平仄，平平仄仄平。x平平仄仄，x仄仄平平。x仄平平仄，平平仄仄平。偶数句末尾入韵\n\n五律规则3：x平平仄仄，x仄仄平平。x仄平平仄，平平仄仄平。x平平仄仄，x仄仄平平。x仄平平仄，平平仄仄平。偶数句末尾入韵\n\n五律规则4：x仄仄平平，平平仄仄平。x平平仄仄，x仄仄平平。x仄平平仄，平平仄仄平。x平平仄仄，x仄仄平平。偶数句末尾入韵</string>
+	<string name="qiyanlvshiinfo">七律规则1：x平x仄平平仄，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。偶数句末尾入韵\n\n七律规则2：x仄平平仄仄平，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。偶数句末尾入韵\n\n七律规则3：x仄x平平仄仄，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。偶数句末尾入韵\n\n七律规则4：x平x仄仄平平，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。x平x仄平平仄，x仄平平仄仄平。x仄x平平仄仄，x平x仄仄平平。偶数句末尾入韵</string>
+	<string name="rulewarn">注：x代表可仄可平</string>
+	
+	<string name="save">查看已作诗歌</string>
+	<string name="save_wyjj">查看已作五绝</string>
+	<string name="save_qyjj">查看已作七绝</string>
+	<string name="save_wyls">查看已作五律</string>
+	<string name="save_qyls">查看已作七律</string>
+</resources>

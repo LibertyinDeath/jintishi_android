@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_wuyanjueju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="@string/button_wuyanjueju"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_qiyanjueju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_qiyanjueju"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_wuyanlvshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_wuyanlvshi"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_qiyanlvshi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_qiyanlvshi"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_jintishirule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/jintishirule"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_savewyls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/save"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_returnmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/returnmain"
+            android:textColor="#8DB6CD"
+            android:textSize="6pt" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_wyls_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:hint="@string/wyls_title"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFD700" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edit_wyls1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/wyls_info1"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFD700" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edit_wyls2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/wyls_info2"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFD700" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edit_wyls3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/wyls_info3"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFD700" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edit_wyls4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="@string/wyls_info4"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFD700" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button_funjj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/judge_jj"
+            android:textColor="#8DB6CD"
+            android:textSize="8pt" >
+        </Button>
+
+        <TextView
+            android:id="@+id/wyls_warn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/wyls_warninfo"
+            android:textColor="#FF7256"
+            android:textSize="10pt" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
